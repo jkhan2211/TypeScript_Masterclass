@@ -76,3 +76,61 @@ function example3(){
     }
         // console.log(x1);
 }
+
+// ------------------------------------------------------
+
+// Data types
+
+// number 
+var a : number = 1000;
+console.log("number is:", a)
+
+var b : number = 10.2;
+console.log(b);
+
+
+// string
+
+var str1 : string = "This is string";
+console.log(str1);
+
+// boolean
+var isReady : boolean = true;
+console.log(isReady);
+
+// ------------------------------------------------------------------
+
+// void
+var nothing : void = undefined;
+// nothing = "10";
+
+// null
+var x4 = null;
+console.log(x4);
+// x4 = "Hello"
+console.log(x4);
+console.log(typeof(x4));
+
+
+var y : null;
+// y = 10;
+
+// undefined
+var a2 = undefined;
+// a2 =10;
+console.log(a2);
+
+
+var a5= undefined;
+// a5 = 100;
+
+// never
+// var a2 : never = null; 
+
+// any
+var x10 : any;
+console.log(x10);
+console.log(typeof(x10));
+x10 = 10;
+console.log(x10);
+console.log(typeof(x10));
