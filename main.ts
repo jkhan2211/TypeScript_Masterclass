@@ -21,11 +21,11 @@ var name1 : string;
 // var: can be re-declared and updated
 
 var name11 : string = "Hello";
-console.log("var inirtilized: ", name11);
+console.log("var initialized: ", name11);
 name11 = "Hello TS";
 console.log("var updates:", name11);
 var name11 : string = "Welcome to TS";
-console.log("var redeclared", name11);
+console.log("var re-declared", name11);
 
 // var: are function ScopedCred
 function example(){
